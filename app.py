@@ -35,4 +35,4 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run(host="http://127.0.0.1/", port=5500)
+    app.run(debug=True)
