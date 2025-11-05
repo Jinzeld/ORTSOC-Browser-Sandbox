@@ -28,5 +28,11 @@ def create_sandbox():
 
     return jsonify({"message": f"Sandbox for {target_url} started."})
 
+# Home route for testing
+@app.route('/')
+def home():
+    return "Welcome to the ORTSOC redirect URL Microservice, \n Please copy the page URL and run it on your Test Program"
+
+
 if __name__ == "__main__":
     app.run(host="http://127.0.0.1/", port=5500)
