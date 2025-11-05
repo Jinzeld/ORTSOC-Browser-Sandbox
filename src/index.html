@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORTSOC Sandbox</title>
+     <link rel="stylesheet" type="text/css" href="./style.css">
+    <style>
+        input[type="text"] { width: 60%; padding: 6px; }
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        <h1>Welcome to ORTSOC Browser Sandbox</h1>
+        <p class="subtitle">Preview any malicious URLs safely</p>
+
+        <form id="browseForm">
+            <input type="text" id="urlInput" placeholder="Enter a URL "/>
+            <button type="submit">Launch</button>
+        </form>
+
+        <iframe id="sandboxFrame" width="100%" height="600" title="Browser Sandbox"></iframe>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
